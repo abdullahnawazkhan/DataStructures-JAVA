@@ -1,10 +1,10 @@
-public class MinHeap {
+public class MinHeapDS {
 
    private int[] heap;
    private int noOfElements;
    private int maxSize;
 
-   public MinHeap(int maxSize) {
+   public MinHeapDS(int maxSize) {
 
       this.maxSize = maxSize;
       heap = new int[maxSize];
